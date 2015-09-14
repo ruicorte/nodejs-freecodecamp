@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   '--color=always',
+1 verbose cli   'view',
+1 verbose cli   '@ruicorte/node' ]
+2 info using npm@2.14.3
+3 info using node@v0.10.35
+4 silly mapToRegistry name @ruicorte/node
+5 silly mapToRegistry scope (from package name) @ruicorte
+6 verbose mapToRegistry no registry URL found in name for scope @ruicorte
+7 silly mapToRegistry using default registry
+8 silly mapToRegistry registry http://localhost:15443/
+9 silly mapToRegistry uri http://localhost:15443/@ruicorte%2fnode
+10 verbose request uri http://localhost:15443/@ruicorte%2fnode
+11 verbose request no auth needed
+12 info attempt registry request try #1 at 09:33:31
+13 verbose request id 99d81af6a175f620
+14 http request GET http://localhost:15443/@ruicorte%2fnode
+15 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+16 info attempt registry request try #2 at 09:33:41
+17 http request GET http://localhost:15443/@ruicorte%2fnode
+18 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+19 info attempt registry request try #3 at 09:34:42
+20 http request GET http://localhost:15443/@ruicorte%2fnode
+21 verbose stack Error: connect ECONNREFUSED
+21 verbose stack     at errnoException (net.js:905:11)
+21 verbose stack     at Object.afterConnect [as oncomplete] (net.js:896:19)
+22 verbose cwd /home/ubuntu/workspace/node
+23 error Linux 3.14.13-c9
+24 error argv "node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "--color=always" "view" "@ruicorte/node"
+25 error node v0.10.35
+26 error npm  v2.14.3
+27 error code ECONNREFUSED
+28 error errno ECONNREFUSED
+29 error syscall connect
+30 error Error: connect ECONNREFUSED
+30 error     at errnoException (net.js:905:11)
+30 error     at Object.afterConnect [as oncomplete] (net.js:896:19)
+30 error  { [Error: connect ECONNREFUSED]
+30 error   code: 'ECONNREFUSED',
+30 error   errno: 'ECONNREFUSED',
+30 error   syscall: 'connect' }
+31 error If you are behind a proxy, please make sure that the
+31 error 'proxy' config is set properly.  See: 'npm help config'
+32 verbose exit [ 1, true ]

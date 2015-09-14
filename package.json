@@ -1,0 +1,22 @@
+{
+  "name": "@ruicorte/node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruicorte/nodejs-freecodecamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruicorte/nodejs-freecodecamp/issues"
+  },
+  "homepage": "https://github.com/ruicorte/nodejs-freecodecamp#readme",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
